@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "addiction",
+         "patterns": ["Hi I am facing a problem of smoking addiction","smoking addiction","facing a problem of smoking addiction"],
+         "responses": ["ok! When you have started smoking"],
+         "context_set": ""
+        },
+        {"tag": "years",
+         "patterns": ["2 years ago","years ago","2"],
+         "responses": ["If you don’t mind may I ask reason for starting of smoking"],
+         "context_set": ""
+        },
+        {"tag": "reason",
+         "patterns": ["reason behind starting","No I can’t give you reason behind starting it but it was my personal problem","but it was my personal problem"],
+         "responses": ["I respect your privacy. Do you know how many problems can happen due to smoking?"],
+         "context_set": ""
+        },
+        {"tag": "no",
+         "patterns": ["no"],
+         "responses": ["Ok! Smoking causes cancer, heart disease, stroke, lung diseases, diabetes, and chronic obstructive pulmonary disease (COPD), which includes emphysema and chronic bronchitis. Smoking also increases risk for tuberculosis, certain eye diseases, and problems of the immune system, including rheumatoid arthritis."],
+         "context_set": ""
+        },
+        {"tag": "diseases",
+         "patterns": ["omg! This many diseases can happen because of smoking", "many diseases", "because of smoking"],
+         "responses": ["Not only this they are many diseases can happen with smoking Your family will upset when you will get this diseases you will lose your confidence and everything this thing can destroy your life."],
+         "context_set": ""
+        },
+        {"tag": "leave",
+         "patterns": ["I am trying to leave smoking but I am unable do it", "leave smoking", "but I am unable do it"],
+         "responses": ["Here my strong suggestions to please practice these things everyday,Stop being around smokers,Focus on the Present,Stay Positive About Your Progress,Spend time with family and good friends Don’t Neglect Yourself,Don’t Take Yourself too Seriously,Eat nicotex chew gum.If you feel demotivated. Try this for 21 days everything will be perfect Have a great future.Don’t Waste Your Limited Time and Energy Regretting Your Past"],
+         "context_set": ""
+        }
+   ]
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf8">
+    <title>Chat with FAQ-Bot</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style2.css">
+    <link href="http://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('button').click(function () {
+                var message = $('textarea').val()
+                var old = $('#content').html()
+
+                {#$('#content').html(old + '<p>' + message + '</p>')#}
+            })
+
+<!--JR 29.04.2020: use enter to also submit message-->
+<!--https://codinginfinite.com/chatbot-in-python-flask-tutorial/-->
+<!--            ("#textarea").keypress(function(e) {-->
+<!--    //if enter key is pressed-->
+<!--        if(e.which == 13) {-->
+<!--            getResponse();-->
+<!--        }-->
+<!--    });-->
+
+
+
+
+        })
+
+    </script>
+</head>
+
+
+<body>
+    <p align="center">
+    <img src="static/images/Pandas.png" hspace="10px">
+    </p>
+
+    <h2>FAQ Chatbot</h2>
+
+
+    <form method="post" action="{% url 'index' %}">
+
+        <div id="content">
+            <p>You: <br><br>{{ input }}</p>
+        </div>
+
+         <div id="content">
+             <p>FAQ-Bot:<br><br>{{ resp }}</p>
+         </div>
+
+        <div id="message">
+            <!-- <textarea name="input" rows="2" cols="34">Please enter your question here!</textarea> -->
+            <textarea name="input" rows="2" cols="34" onfocus="this.value=''">Please enter your question here!</textarea>
+            <br>
+            <button name="btn" type="submit">Post</button>
+        </div>
+
+        </form>
+
+
+{{ con.input }}
+</body>
+</html>

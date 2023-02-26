@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "drugs",
+         "patterns": ["I m addiction of drugs","addiction of drugs","drugs"],
+         "responses": ["When ur stated taking the drugs"],
+         "context_set": ""
+        },
+        {"tag": "years",
+         "patterns": ["3 years ago","years ago","3"],
+         "responses": ["you don’t mind may I ask reason for starting of drugs"],
+         "context_set": ""
+        },
+        {"tag": "reason",
+         "patterns": ["no I can’t give you reason behind starting it but it was my personal problem","no I can’t give you reason behind starting it but it was my personal problem","but it was my personal problem"],
+         "responses": ["OK! I respect your privacy. Do you know how many problems can happen due to drugs?"],
+         "context_set": ""
+        },
+        {"tag": "no",
+         "patterns": ["no"],
+         "responses": ["Six core components:salience, which refers to the addictive behavior becoming the most important activity in a person’s life and may manifest as pre-occupation or craving; (ii) mood modification which refers to subjective enhancement such as getting high. Biological factors, such as genetics and the presence of other psychiatric disorders, may play a role, as may environmental factors, such as peer pressure, history of abuse, and stress, and developmental factors, such as the timing of drug exposure."],
+         "context_set": ""
+        },
+        {"tag": "diseases",
+         "patterns": ["omg! This many diseases can happen because of drugs", "many diseases", "because of drugs"],
+         "responses": ["Not only this they are many diseases can happen with smoking Your family will upset when you will get this addited you will lose your confidence and everything this thing can destroy your life.Client: I am trying to leave drugs but I am unable do it. Here my strong suggestions to please practice these things everyday&#13;&#10;1.going cold turkey — you stop taking drugs suddenly, with no outside help or support&#13;&#10; 2.counselling and lifestyle changes — individual or group therapy can help you learn to cope without drugs. This can be successful if your drug use has been mild. Peer support groups are often run by recovered addicts — their personal experience can be helpful to others.&#13;&#10; 3.detoxification (detox) — you stop taking drugs and have medical treatment (known as pharmacotherapy) while your body clears the drug from your system.&#13;&#10; 4.rehabilitation (rehab) — this is a longer term treatment where you stay in a hospital or clinic, or at home. It also involves psychological treatment to help you deal with issues that may have contributed to your drug use. Have a great future.Don’t Waste Your Limited Time and Energy Regretting Your Past."],
+         "context_set": ""
+        }
+   ]
+}

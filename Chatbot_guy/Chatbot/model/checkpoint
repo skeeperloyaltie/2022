@@ -1,0 +1,2 @@
+model_checkpoint_path: "E:\\manoj\\Chatbot\\Chatbot\\MyChatBot\\model\\smokingmodel.tflearn"
+all_model_checkpoint_paths: "E:\\manoj\\Chatbot\\Chatbot\\MyChatBot\\model\\smokingmodel.tflearn"
