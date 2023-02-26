@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "alcohol",
+         "patterns": ["I m addiction of alcohol","addiction of alcohol","alcohol"],
+         "responses": ["When ur stated drinking alcohol"],
+         "context_set": ""
+        },
+        {"tag": "years",
+         "patterns": ["3 years ago","years ago","3"],
+         "responses": ["you don’t mind may I ask reason for starting of alcohol"],
+         "context_set": ""
+        },
+        {"tag": "reason",
+         "patterns": ["no I can’t give you reason behind starting it but it was my personal problem","no I can’t give you reason behind starting it but it was my personal problem","but it was my personal problem"],
+         "responses": ["OK! I respect your privacy. Do you know how many problems can happen due to alcohol?"],
+         "context_set": ""
+        },
+        {"tag": "no",
+         "patterns": ["no"],
+         "responses": ["Affect your body: Brain: Alcohol interferes with the brain’s communication pathways, and can affect the way the brain looks and works. These disruptions can change mood and behavior, and make it harder to think clearly and move with coordination.&#13;&#10;*Genetic Factors&#13;&#10;*Heart:&#13;&#10;Drinking a lot over a long time or too much on a single occasion can damage the heart, causing problems including:&#13;&#10;Cardiomyopathy – Stretching and drooping of heart muscle&#13;&#10;Arrhythmias – Irregular heart beat Stroke&#13;&#10;High blood pressure&#13;&#10;Liver:Heavy drinking takes a toll on the liver, and can lead to a variety of problems and liver inflammations&#13;&#10;includes&#13;&#10;Alcohol causes the pancreas to produce toxic substances that can eventually lead to pancreatitis, a dangerous inflammation and swelling of the blood vessels in the pancreas that prevents proper digestion Final stage –cancer"],
+         "context_set": ""
+        },
+        {"tag": "leave",
+         "patterns": ["i am trying to leave drinking but I am unable do it", "drinking but I am unable do it", "unable do it"],
+         "responses": ["Here my strong suggestions to please practice these things everyday&#13;&#10; 1.drinking goal. Set a limit on how much you will drink. You should keep your drinking below the recommended guidelines&#13;&#10;2.ask for support. Cutting down on your drinking may not always be easy. Let friends and family members know that you need their support. Your doctor, counselor, or therapist may also be able to offer help.&#13;&#10;3.keep busy. Take a walk, play sports, go out to eat, or catch a movie. When you’re at home, pick up a new hobby or revisit an old one. Painting, board games, playing a musical instrument, woodworking these and other activities are great alternatives to drinking&#13;&#10;4.Don’t keep alcohol in your house. Having no alcohol at home can help limit your drinking.&#13;&#10;5.Drink slowly. Sip your drink. Drink soda, water, or juice after having an alcoholic beverage."],
+         "context_set": ""
+        }
+   ]
+}
